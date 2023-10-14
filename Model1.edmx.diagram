@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="62c07d9873704a409cb3be5bbc54d3bb" Name="Diagram1">
+        <EntityTypeShape EntityType="kafedraModel.disciplini" Width="1.5" PointX="5.25" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="kafedraModel.fakulteti" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="kafedraModel.gruppi" Width="1.5" PointX="5.25" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="kafedraModel.kafedra" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="kafedraModel.Prepodovateli" Width="1.5" PointX="5.25" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="kafedraModel.Studenti" Width="1.5" PointX="7.5" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="kafedraModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="kafedraModel.vedomosti" Width="1.5" PointX="10.5" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="kafedraModel.podchin_tablica_vedomosti" Width="1.5" PointX="12.75" PointY="5.5" IsExpanded="true" />
+        <AssociationConnector Association="kafedraModel.FK_disciplini_kafedra" ManuallyRouted="false" />
+        <AssociationConnector Association="kafedraModel.FK_vedomosti_disciplini" ManuallyRouted="false" />
+        <AssociationConnector Association="kafedraModel.FK_vedomosti_disciplini1" ManuallyRouted="false" />
+        <AssociationConnector Association="kafedraModel.FK_kafedra_fakulteti" ManuallyRouted="false" />
+        <AssociationConnector Association="kafedraModel.FK_gruppi_kafedra" ManuallyRouted="false" />
+        <AssociationConnector Association="kafedraModel.FK_Studenti_gruppi" ManuallyRouted="false" />
+        <AssociationConnector Association="kafedraModel.FK_vedomosti_gruppi" ManuallyRouted="false" />
+        <AssociationConnector Association="kafedraModel.FK_Prepodovateli_kafedra" ManuallyRouted="false" />
+        <AssociationConnector Association="kafedraModel.FK_vedomosti_Prepodovateli" ManuallyRouted="false" />
+        <AssociationConnector Association="kafedraModel.FK_podchin_tablica_vedomosti_vedomosti" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
